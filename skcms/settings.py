@@ -55,7 +55,7 @@ ROOT_URLCONF = 'skcms.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Django-Blog/skcms/articles/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
