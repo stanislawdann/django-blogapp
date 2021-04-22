@@ -6,5 +6,5 @@ class Article(models.Model):
     content = models.TextField(verbose_name="zawartość")
     published = models.DateTimeField(verbose_name="Data publikacji")
 
-    def __unicode__(self):
+    def __str__(self):
         return self.title
