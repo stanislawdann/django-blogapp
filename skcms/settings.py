@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'articles'
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,8 @@ ROOT_URLCONF = 'skcms.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Django-Blog/skcms/articles/templates',],
+        'DIRS': ['/Django-Blog/skcms/articles/templates',
+                 '/Django-Blog/skcms/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,4 +119,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+STATICFILES_DIRS = (
+    ('static', 'DJANGO-BLOG/skcms/static')
+)
+
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = 'DJANGO-BLOG/skcms/media/'
+MEDIA_URL = '/media/'

@@ -1,0 +1,29 @@
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "title": "Month 1",
+        "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur est risus, suscipit nec posuere quis, egestas nec turpis. Mauris luctus, turpis nec volutpat fermentum, neque odio varius sem, nec auctor urna sapien id arcu. Mauris pulvinar quam magna, in pellentesque libero blandit a. Mauris elit lectus, maximus eget lorem sit amet, faucibus condimentum dolor. Nunc ante leo, finibus vel quam vulputate, rhoncus placerat turpis. Integer posuere dapibus ex, ut ultricies dolor congue a. Proin interdum, lacus dictum efficitur convallis, dolor purus accumsan neque, eget malesuada mi est vel enim. Mauris pulvinar ex a nibh aliquam, eget tincidunt ligula blandit. Duis dui diam, egestas vel fermentums vitae, tincidunt convallis arcu. Duis imperdiet felis dolor, ac lobortis felis vulputate faucibus.",
+        "published": "2021-01-01T14:00:00Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "title": "Month 2",
+        "content": "orem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur est risus, suscipit nec posuere quis, egestas nec turpis. Mauris luctus, turpis nec volutpat fermentum, neque odio varius sem, nec auctor urna sapien id arcu. Mauris pulvinar quam magna, in pellentesque libero blandit a. Mauris elit lectus, maximus eget lorem sit amet, faucibus condimentum dolor. Nunc ante leo, finibus vel quam vulputate, rhoncus placerat turpis. Integer posuere dapibus ex, ut ultricies dolor congue a. Proin interdum, lacus dictum efficitur convallis, dolor purus accumsan neque, eget malesuada mi est vel enim. Mauris pulvinar ex a nibh aliqusam, eget tincidunt ligula blandit. Duis dui diam, egestas vel fermentum vitae, tincidunt convallis arcu. Duis imperdiet felis dolor, ac lobortis felis vulputate faucibus.",
+        "published": "2021-02-01T14:00:00Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "title": "Month 3",
+        "content": "Duis ornare pulvinar finibus. Donec ultricies rhoncus lorem, eget varius sem placerat placerat. Nulla elit arcu, condimentum id nulla in, iaculis ullamcorper velit. Ut ac nisl et neque suscipit viverra id ut ligula. Proin faucibus sem odio, at vestibulum sapien luctus sit amet. In at vestibulum lorem. Nunc maximus justo ut ipsum blandit, quis aliquet leo sollicitudin. Pellentesque magna quam, facilisis eget efficitur eget, tempus sit amet libero. Morbi tempus ex eget justo mollis, ac rhoncus velit maximus. Duis non diam ornare, dictum est at, facilisis leo. Etiam dapibus magna eu turpis pretium cursus. Etiam rhoncus neque et massa egestas luctus. Donec in ex sapien. Mauris at turpis et sem tempor cursus eget et ex. Cras at nunc in justo sollicitudin sollicitudin. Ut semper leo a ipsum faucibus tristique.",
+        "published": "2021-03-01T14:00:00Z"
+    }
+}
+]
