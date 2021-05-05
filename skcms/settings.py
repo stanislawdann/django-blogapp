@@ -57,6 +57,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['/Django-Blog/skcms/articles/templates',
                  '/Django-Blog/skcms/templates',],
+                 # wszystkie śćieżki do templateów
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,5 +126,5 @@ STATICFILES_DIRS = (
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = 'DJANGO-BLOG/skcms/media/'
-MEDIA_URL = '/media/'
+MEDIA_ROOT = 'C:/Django-Blog/skcms/media' #ścieżka do adresu gdzie pliki będą przechowywane.
+MEDIA_URL = '/media/' #to adres pod którym będą obsługiwane pliki medialne

@@ -6,3 +6,7 @@ def articles(request):
 
 def article(request, article_id):
     return render(request, 'article.html', {'article' : Article.objects.get(id=article_id)})
+
+#render - łączy dany template.html z bazą danych danego modelu.
+# .all - zwraca wszystkie
+# .get - zwraca wybrany

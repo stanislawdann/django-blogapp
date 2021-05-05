@@ -23,7 +23,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('article/', include('articles.urls')),
 ]
+# zarządzanie sciezkami. Po wpisaniu article/ - przekieruje nas do pliku artciels.urls
+
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# w procesie debugowania tworzymy taki plik żeby móc swobodnie przesyłać pliki(media)
